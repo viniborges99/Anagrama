@@ -31,5 +31,3 @@ const similarWords = (arr = []) => {
 };
 
 console.log(similarWords(arr));
-
-/* como rodar o codigo, tenha o node baixado em sua maquina abra o vscode abra o terminal e digite node script.js isso fara rodar o codigo */
