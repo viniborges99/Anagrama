@@ -1,6 +1,8 @@
 # Entendendo o projeto anagrama
 
 
+Para rodar o codigo é necessario o node.js, instale caso não tenha ele em sua maquina, feito isso abra o vscode e no terminal digite node script.js.
+
 O projeto consiste em uma aplicação para verificar se existe algum anagrama, de acordo com as informçaões passadas.
 
 Começamos o projeto criando uma variavel chamada (arr) para armazenar o array que sera passada as informações.
