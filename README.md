@@ -22,8 +22,11 @@ Por fim, a função retorna um array contendo todos os valores do map, ou seja, 
 # Metodos utilizados e suas funções
 
 Metodo (sort): O sort consiste em ordenar os elementos do próprio array e retornalos novamente no array.
+
 Metodo (join): O join é um metodo que junta todas os argumentos passados no array em uma string e retorna essa string.
+
 Metodo (filter): O metodo filter como o proprio nome diz ele filtra as informações passadas.
+
 Metodo (has): O metodo has auxilia retornando um valor booleano indicando se um elemento especifico existe ou não, utilizamos ele para verificar o map.
 
 
