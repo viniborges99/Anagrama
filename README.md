@@ -13,7 +13,7 @@ Para cada string (str) no array fornecido (arr), cria-se uma nova array chamada 
 Apos isso ordenamos esse novo array do sorted, apos ordenado convertemos esse novo array do sorted de volta para string.
 
 Verificamos se a string atual é um anagrama de qualquer outra string já verificada no array arr.
-Isso é feito filtrando o array arr para encontrar strings que tenham os mesmos caracteres quando ordenados. Se for encontrado pelo menos um anagrama, a variável isAnagram é definida como true, caso contrário, é definida como false.
+Isso é feito filtrando o array arr para encontrar strings que tenham os mesmos caracteres quando ordenados. Se for encontrado pelo menos um anagrama, a variável newAnagram é definida como true, caso contrário, é definida como false.
 
 Se a string atual for um anagrama de alguma outra string já processada ou se a string já tiver sido adicionada ao map, ela é adicionada ao grupo apropriado no map.
 
