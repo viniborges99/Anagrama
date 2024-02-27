@@ -1,6 +1,6 @@
 const arr = ['amor', 'roma','padre','ignorado','bolo','rota','nada','ator','lobo','pedra'];
 
-const groupSimilarWords = (arr = []) => {
+const similarWords = (arr = []) => {
    if (arr.length === 0) {
       return arr;
    };
@@ -11,7 +11,7 @@ const groupSimilarWords = (arr = []) => {
       sorted.sort();
       sorted = sorted.join('');
 
-      const isAnagram = arr.filter(word => {
+      const newAnagram = arr.filter(word => {
          if (word === str) {
             return false;
          }
@@ -19,7 +19,7 @@ const groupSimilarWords = (arr = []) => {
          return sortedWord === sorted;
       }).length > 0;
 
-      if (isAnagram || map.has(sorted)) {
+      if (newAnagram || map.has(sorted)) {
          if (map.has(sorted)) {
             map.get(sorted).push(str);
          } else {
@@ -30,4 +30,6 @@ const groupSimilarWords = (arr = []) => {
    return [...map.values()];
 };
 
-console.log(groupSimilarWords(arr));
+console.log(similarWords(arr));
+
+/* como rodar o codigo, tenha o node baixado em sua maquina abra o vscode abra o terminal e digite node script.js isso fara rodar o codigo */
