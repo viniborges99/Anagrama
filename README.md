@@ -1,3 +1,6 @@
+# Entendendo o projeto anagrama
+
+
 O projeto consiste em uma aplicação para verificar se existe algum anagrama, de acordo com as informçaões passadas.
 
 Começamos o projeto criando uma variavel chamada (arr) para armazenar o array que sera passada as informações.
@@ -15,3 +18,14 @@ Isso é feito filtrando o array arr para encontrar strings que tenham os mesmos 
 Se a string atual for um anagrama de alguma outra string já processada ou se a string já tiver sido adicionada ao map, ela é adicionada ao grupo apropriado no map.
 
 Por fim, a função retorna um array contendo todos os valores do map, ou seja, os grupos de anagramas já ordenados.
+
+# Metodos utilizados e suas funções
+
+Metodo (sort): O sort consiste em ordenar os elementos do próprio array e retornalos novamente no array.
+Metodo (join): O join é um metodo que junta todas os argumentos passados no array em uma string e retorna essa string.
+Metodo (filter): O metodo filter como o proprio nome diz ele filtra as informações passadas.
+Metodo (has): O metodo has auxilia retornando um valor booleano indicando se um elemento especifico existe ou não, utilizamos ele para verificar o map.
+
+
+
+
